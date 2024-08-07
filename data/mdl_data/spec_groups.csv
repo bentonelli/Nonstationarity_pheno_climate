@@ -1,0 +1,223 @@
+species,Group,New_Group,number
+American Wigeon,Waterfowl,Anseriformes,220
+Blue-winged Teal,Waterfowl,Anseriformes,220
+Bufflehead,Waterfowl,Anseriformes,220
+Canada Goose,Waterfowl,Anseriformes,220
+Canvasback,Waterfowl,Anseriformes,220
+Cinnamon Teal,Waterfowl,Anseriformes,220
+Common Goldeneye,Waterfowl,Anseriformes,220
+Common Merganser,Waterfowl,Anseriformes,220
+Gadwall,Waterfowl,Anseriformes,220
+Greater Scaup,Waterfowl,Anseriformes,220
+Greater White-fronted Goose,Waterfowl,Anseriformes,220
+Green-winged Teal,Waterfowl,Anseriformes,220
+Hooded Merganser,Waterfowl,Anseriformes,220
+Mallard,Waterfowl,Anseriformes,220
+Northern Pintail,Waterfowl,Anseriformes,220
+Northern Shoveler,Waterfowl,Anseriformes,220
+Redhead,Waterfowl,Anseriformes,220
+Ring-necked Duck,Waterfowl,Anseriformes,220
+Ruddy Duck,Waterfowl,Anseriformes,220
+Snow Goose,Waterfowl,Anseriformes,220
+Trumpeter Swan,Waterfowl,Anseriformes,220
+Wood Duck,Waterfowl,Anseriformes,220
+Clark's Grebe,Grebes,Podicipedidae,1780
+Eared Grebe,Grebes,Podicipedidae,1780
+Horned Grebe,Grebes,Podicipedidae,1780
+Pied-billed Grebe,Grebes,Podicipedidae,1780
+Red-necked Grebe,Grebes,Podicipedidae,1780
+Western Grebe,Grebes,Podicipedidae,1780
+Black-chinned Hummingbird,Hummingbirds,Caprimulgiformes,2000
+Broad-tailed Hummingbird,Hummingbirds,Caprimulgiformes,2000
+Calliope Hummingbird,Hummingbirds,Caprimulgiformes,2000
+Ruby-throated Hummingbird,Hummingbirds,Caprimulgiformes,2000
+Rufous Hummingbird,Hummingbirds,Caprimulgiformes,2000
+Vaux's Swift,Swifts,Caprimulgiformes,2000
+White-throated Swift,Swifts,Caprimulgiformes,2000
+American Coot,"Rails, Gallinules, and Allies",Gruiformes,3000
+Sora,"Rails, Gallinules, and Allies",Gruiformes,3000
+Virginia Rail,"Rails, Gallinules, and Allies",Gruiformes,3000
+Black Tern,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Bonaparte's Gull,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+California Gull,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Caspian Tern,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Common Tern,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Forster's Tern,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Franklin's Gull,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Herring Gull,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+Ring-billed Gull,"Gulls, Terns, and Skimmers",Charadriiformes,4000
+American Avocet,Shorebirds,Charadriiformes,4000
+American Woodcock,Shorebirds,Charadriiformes,4000
+Black-necked Stilt,Shorebirds,Charadriiformes,4000
+Greater Yellowlegs,Shorebirds,Charadriiformes,4000
+Killdeer,Shorebirds,Charadriiformes,4000
+Least Sandpiper,Shorebirds,Charadriiformes,4000
+Lesser Yellowlegs,Shorebirds,Charadriiformes,4000
+Long-billed Curlew,Shorebirds,Charadriiformes,4000
+Marbled Godwit,Shorebirds,Charadriiformes,4000
+Pectoral Sandpiper,Shorebirds,Charadriiformes,4000
+Semipalmated Plover,Shorebirds,Charadriiformes,4000
+Semipalmated Sandpiper,Shorebirds,Charadriiformes,4000
+Short-billed Dowitcher,Shorebirds,Charadriiformes,4000
+Solitary Sandpiper,Shorebirds,Charadriiformes,4000
+Spotted Sandpiper,Shorebirds,Charadriiformes,4000
+Western Sandpiper,Shorebirds,Charadriiformes,4000
+Whimbrel,Shorebirds,Charadriiformes,4000
+Willet,Shorebirds,Charadriiformes,4000
+Wilson's Phalarope,Shorebirds,Charadriiformes,4000
+Wilson's Snipe,Shorebirds,Charadriiformes,4000
+American Bittern,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Black-crowned Night-Heron,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Cattle Egret,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Great Blue Heron,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Great Egret,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Green Heron,"Herons, Ibis, and Allies",Pelecaniformes,5000
+Snowy Egret,"Herons, Ibis, and Allies",Pelecaniformes,5000
+White-faced Ibis,"Herons, Ibis, and Allies",Pelecaniformes,5000
+American White Pelican,Pelicans,Pelecaniformes,5000
+Broad-winged Hawk,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Mississippi Kite,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Northern Harrier,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Osprey,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Red-tailed Hawk,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Swainson's Hawk,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Swallow-tailed Kite,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Turkey Vulture,"Vultures, Hawks, and Allies",Cathartiformes,6000
+Northern Flicker,Woodpeckers,Piciformes,11000
+Red-headed Woodpecker,Woodpeckers,Piciformes,11000
+Yellow-bellied Sapsucker,Woodpeckers,Piciformes,11000
+American Kestrel,Falcons and Caracaras,Other Landbirds,35000
+Merlin,Falcons and Caracaras,Other Landbirds,35000
+Acadian Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Alder Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Ash-throated Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Eastern Kingbird,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Eastern Phoebe,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Eastern Wood-Pewee,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Gray Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Great Crested Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Hammond's Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Least Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Olive-sided Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Pacific-slope Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Say's Phoebe,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Scissor-tailed Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Western Kingbird,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Western Wood-Pewee,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Willow Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Yellow-bellied Flycatcher,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies",Tyrannidae,15700
+Bell's Vireo,Vireos,Vireonidae,18500
+Blue-headed Vireo,Vireos,Vireonidae,18500
+Cassin's Vireo,Vireos,Vireonidae,18500
+Plumbeous Vireo,Vireos,Vireonidae,18500
+Red-eyed Vireo,Vireos,Vireonidae,18500
+Warbling Vireo,Vireos,Vireonidae,18500
+White-eyed Vireo,Vireos,Vireonidae,18500
+Yellow-throated Vireo,Vireos,Vireonidae,18500
+Bank Swallow,Martins and Swallows,Hirundinidae,23400
+Barn Swallow,Martins and Swallows,Hirundinidae,23400
+Cliff Swallow,Martins and Swallows,Hirundinidae,23400
+Northern Rough-winged Swallow,Martins and Swallows,Hirundinidae,23400
+Purple Martin,Martins and Swallows,Hirundinidae,23400
+Tree Swallow,Martins and Swallows,Hirundinidae,23400
+Violet-green Swallow,Martins and Swallows,Hirundinidae,23400
+House Wren,Wrens,Troglodytidae,26500
+Marsh Wren,Wrens,Troglodytidae,26500
+Winter Wren,Wrens,Troglodytidae,26500
+American Robin,Thrushes,Turdidae,27500
+Hermit Thrush,Thrushes,Turdidae,27500
+Mountain Bluebird,Thrushes,Turdidae,27500
+Swainson's Thrush,Thrushes,Turdidae,27500
+Veery,Thrushes,Turdidae,27500
+Wood Thrush,Thrushes,Turdidae,27500
+Brewer's Sparrow,New World Sparrows,Passerellidae,32000
+Chipping Sparrow,New World Sparrows,Passerellidae,32000
+Clay-colored Sparrow,New World Sparrows,Passerellidae,32000
+Eastern Towhee,New World Sparrows,Passerellidae,32000
+Field Sparrow,New World Sparrows,Passerellidae,32000
+Fox Sparrow,New World Sparrows,Passerellidae,32000
+Grasshopper Sparrow,New World Sparrows,Passerellidae,32000
+Green-tailed Towhee,New World Sparrows,Passerellidae,32000
+Lark Sparrow,New World Sparrows,Passerellidae,32000
+Lincoln's Sparrow,New World Sparrows,Passerellidae,32000
+Savannah Sparrow,New World Sparrows,Passerellidae,32000
+Song Sparrow,New World Sparrows,Passerellidae,32000
+Swamp Sparrow,New World Sparrows,Passerellidae,32000
+Vesper Sparrow,New World Sparrows,Passerellidae,32000
+White-crowned Sparrow,New World Sparrows,Passerellidae,32000
+White-throated Sparrow,New World Sparrows,Passerellidae,32000
+Baltimore Oriole,Blackbirds,Icteridae,32800
+Bobolink,Blackbirds,Icteridae,32800
+Brewer's Blackbird,Blackbirds,Icteridae,32800
+Brown-headed Cowbird,Blackbirds,Icteridae,32800
+Bullock's Oriole,Blackbirds,Icteridae,32800
+Common Grackle,Blackbirds,Icteridae,32800
+Eastern Meadowlark,Blackbirds,Icteridae,32800
+Hooded Oriole,Blackbirds,Icteridae,32800
+Orchard Oriole,Blackbirds,Icteridae,32800
+Red-winged Blackbird,Blackbirds,Icteridae,32800
+Rusty Blackbird,Blackbirds,Icteridae,32800
+Western Meadowlark,Blackbirds,Icteridae,32800
+Yellow-headed Blackbird,Blackbirds,Icteridae,32800
+American Redstart,Wood-Warblers,Parulidae,33200
+Bay-breasted Warbler,Wood-Warblers,Parulidae,33200
+Black-and-white Warbler,Wood-Warblers,Parulidae,33200
+Black-throated Blue Warbler,Wood-Warblers,Parulidae,33200
+Black-throated Gray Warbler,Wood-Warblers,Parulidae,33200
+Black-throated Green Warbler,Wood-Warblers,Parulidae,33200
+Blackburnian Warbler,Wood-Warblers,Parulidae,33200
+Blackpoll Warbler,Wood-Warblers,Parulidae,33200
+Blue-winged Warbler,Wood-Warblers,Parulidae,33200
+Canada Warbler,Wood-Warblers,Parulidae,33200
+Cape May Warbler,Wood-Warblers,Parulidae,33200
+Cerulean Warbler,Wood-Warblers,Parulidae,33200
+Chestnut-sided Warbler,Wood-Warblers,Parulidae,33200
+Common Yellowthroat,Wood-Warblers,Parulidae,33200
+Golden-winged Warbler,Wood-Warblers,Parulidae,33200
+Hermit Warbler,Wood-Warblers,Parulidae,33200
+Hooded Warbler,Wood-Warblers,Parulidae,33200
+Kentucky Warbler,Wood-Warblers,Parulidae,33200
+Louisiana Waterthrush,Wood-Warblers,Parulidae,33200
+Lucy's Warbler,Wood-Warblers,Parulidae,33200
+MacGillivray's Warbler,Wood-Warblers,Parulidae,33200
+Magnolia Warbler,Wood-Warblers,Parulidae,33200
+Mourning Warbler,Wood-Warblers,Parulidae,33200
+Nashville Warbler,Wood-Warblers,Parulidae,33200
+Northern Parula,Wood-Warblers,Parulidae,33200
+Northern Waterthrush,Wood-Warblers,Parulidae,33200
+Orange-crowned Warbler,Wood-Warblers,Parulidae,33200
+Ovenbird,Wood-Warblers,Parulidae,33200
+Palm Warbler,Wood-Warblers,Parulidae,33200
+Pine Warbler,Wood-Warblers,Parulidae,33200
+Prairie Warbler,Wood-Warblers,Parulidae,33200
+Prothonotary Warbler,Wood-Warblers,Parulidae,33200
+Swainson's Warbler,Wood-Warblers,Parulidae,33200
+Tennessee Warbler,Wood-Warblers,Parulidae,33200
+Wilson's Warbler,Wood-Warblers,Parulidae,33200
+Worm-eating Warbler,Wood-Warblers,Parulidae,33200
+Yellow Warbler,Wood-Warblers,Parulidae,33200
+Yellow-rumped Warbler,Wood-Warblers,Parulidae,33200
+Yellow-throated Warbler,Wood-Warblers,Parulidae,33200
+Black-headed Grosbeak,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Blue Grosbeak,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Dickcissel,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Indigo Bunting,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Lazuli Bunting,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Painted Bunting,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Rose-breasted Grosbeak,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Scarlet Tanager,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Summer Tanager,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Western Tanager,"Cardinals, Grosbeaks, and Allies",Cadinalidae,33700
+Brown Thrasher,"Catbirds, Mockingbirds, and Thrashers",Other Songbirds,34000
+Gray Catbird,"Catbirds, Mockingbirds, and Thrashers",Other Songbirds,34000
+Purple Finch,"Finches, Euphonias, and Allies",Other Songbirds,34000
+Blue-gray Gnatcatcher,Gnatcatchers,Other Songbirds,34000
+American Crow,"Jays, Magpies, Crows, and Ravens",Other Songbirds,34000
+Ruby-crowned Kinglet,Kinglets,Other Songbirds,34000
+American Pipit,Wagtails and Pipits,Other Songbirds,34000
+Yellow-breasted Chat,Yellow-breasted Chat,Other Songbirds,34000
+Yellow-billed Cuckoo,Cuckoos,Other Landbirds,35000
+Mourning Dove,Pigeons and Doves,Other Landbirds,35000
+Double-crested Cormorant,Cormorants and Anhingas,Other Waterbirds,36000
+Sandhill Crane,Cranes,Other Waterbirds,36000
+Common Loon,Loons,Other Waterbirds,36000

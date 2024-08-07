@@ -1,0 +1,135 @@
+---
+title: "&nbsp;"
+#author: "Ben Tonelli"
+#date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(readr)
+library(dggridR)
+year_target <- 2022
+```
+
+## Supplemental Data 2 - Spatiotemporal weather anomaly maps
+
+Below are maps showing spatiotemporal anomaly maps for each climate variable included in the analysis (temperature, snowpack, and precipitation) for the spring arrival period during 2022. Each map represents a different day in the arrival period. Map grid cells are colored according to the 29-day anomaly. Temperature and snowpack show more spatial and temporal autocorrelation in comparison to precipitation. 
+
+These maps can be recreated using the "enviro_spatial_corr.Rmd" for any year included in the analysis.
+
+### Temperature
+```{r, fig.show="hold", out.width="50%",echo=FALSE}
+# Code to look at spatial correlations in temp, swe and prcp during the study period
+data_mdl <- readRDS("ms_data2.rds")
+env_cl <- readRDS("enviro_by_cell.rds")
+
+season_interest <- round(seq(min(data_mdl$arr_GAM_mean),max(data_mdl$arr_GAM_mean),by=7))
+
+hexgrid6 <- dggridR::dgconstruct(res = 6) 
+countries <- map_data("world")
+states <- map_data("state")
+countries <- filter(countries,long < -40)
+lakes <- map_data("lakes") %>% filter(long < -40)
+
+for (each_day in season_interest){
+  day_data <- filter(env_cl, year == year_target & day == each_day)
+  
+  grid  <- dgcellstogrid(hexgrid6,day_data$cell,frame=TRUE,wrapcells=TRUE)
+  grid  <- merge(grid,day_data,by.x="cell",by.y="cell")
+  
+  ### Plot skeleton ####
+  p1 <- ggplot() + coord_map("mollweide",xlim=c(-145,-65),ylim=c(25,65)) + ggtitle(paste("Year=",year_target,"Day=",each_day,sep=" ")) +
+    geom_polygon(data=countries, aes(x=long, y=lat, group=group),alpha=1,fill="grey80") +
+    geom_polygon(data=lakes, aes(x=long, y=lat, group=group),alpha=1,fill="white") +
+    geom_polygon(data=grid,      aes(x=long, y=lat, group=group, fill=anom_tmin_c29), alpha=1)    +
+    geom_path   (data=grid,      aes(x=long, y=lat, group=group), alpha=0.4, color="white") +
+    geom_path(data=lakes, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    geom_path(data=countries, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    #geom_polygon(data=states, aes(x=long, y=lat, group=group), alpha=.4,fill="grey90", color="darkgrey") +
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+    theme(axis.ticks.x = element_blank(),axis.text.x = element_blank(),
+          axis.ticks.y = element_blank(),axis.text.y = element_blank(),
+          axis.title.x=element_blank(),axis.title.y=element_blank(),
+          plot.margin = unit(c(0, 0, 0, 0), "null"),
+          panel.spacing = unit(c(0, 0, 0, 0), "null"),
+          legend.key.size = unit(1.25, 'cm'),
+          legend.title=element_text(size=22), 
+          legend.text=element_text(size=22),
+          legend.position = c(.15,.4)) +
+    theme(panel.background = element_rect(fill = alpha("white",.5))) +
+    scale_fill_gradient2(low="dodgerblue4", mid="grey",high="firebrick4",
+                         name = "",midpoint=0,lim=c(-3,3))
+  print(p1)
+}
+```
+
+### Snowpack
+```{r, fig.show="hold", out.width="50%",echo=FALSE}
+for (each_day in season_interest){
+  day_data <- filter(env_cl, year == year_target & day == each_day & !is.na(anom_swe_c29))
+  
+  grid  <- dgcellstogrid(hexgrid6,day_data$cell,frame=TRUE,wrapcells=TRUE)
+  grid  <- merge(grid,day_data,by.x="cell",by.y="cell")
+  
+  ### Plot skeleton ####
+  p1 <- ggplot() + coord_map("mollweide",xlim=c(-145,-65),ylim=c(25,65)) + ggtitle(paste("Year=",year_target,"Day=",each_day,sep=" ")) +
+    geom_polygon(data=countries, aes(x=long, y=lat, group=group),alpha=1,fill="grey80") +
+    geom_polygon(data=lakes, aes(x=long, y=lat, group=group),alpha=1,fill="white") +
+    geom_polygon(data=grid,      aes(x=long, y=lat, group=group, fill=anom_swe_c29), alpha=1)    +
+    geom_path   (data=grid,      aes(x=long, y=lat, group=group), alpha=0.4, color="white") +
+    geom_path(data=lakes, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    geom_path(data=countries, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    #geom_polygon(data=states, aes(x=long, y=lat, group=group), alpha=.4,fill="grey90", color="darkgrey") +
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+    theme(axis.ticks.x = element_blank(),axis.text.x = element_blank(),
+          axis.ticks.y = element_blank(),axis.text.y = element_blank(),
+          axis.title.x=element_blank(),axis.title.y=element_blank(),
+          plot.margin = unit(c(0, 0, 0, 0), "null"),
+          panel.spacing = unit(c(0, 0, 0, 0), "null"),
+          legend.key.size = unit(1.25, 'cm'),
+          legend.title=element_text(size=22), 
+          legend.text=element_text(size=22),
+          legend.position = c(.15,.4)) +
+    theme(panel.background = element_rect(fill = alpha("white",.5))) +
+    scale_fill_gradient2(low="wheat3", mid="grey",high="skyblue4",
+                         name = "",midpoint=0,lim=c(-2,3))
+  print(p1)
+}
+```
+
+### Precipitation
+```{r, fig.show="hold", out.width="50%",echo=FALSE}
+#pdf("prcp_corr_plots.pdf")
+for (each_day in season_interest){
+  day_data <- filter(env_cl, year == year_target & day == each_day)
+  
+  grid  <- dgcellstogrid(hexgrid6,day_data$cell,frame=TRUE,wrapcells=TRUE)
+  grid  <- merge(grid,day_data,by.x="cell",by.y="cell")
+  
+  ### Plot skeleton ####
+  p1 <- ggplot() + coord_map("mollweide",xlim=c(-145,-65),ylim=c(25,65)) + ggtitle(paste("Year=",year_target,"Day=",each_day,sep=" ")) +
+    geom_polygon(data=countries, aes(x=long, y=lat, group=group),alpha=1,fill="grey80") +
+    geom_polygon(data=lakes, aes(x=long, y=lat, group=group),alpha=1,fill="white") +
+    geom_polygon(data=grid,      aes(x=long, y=lat, group=group, fill=anom_prcp_c29), alpha=1)    +
+    geom_path   (data=grid,      aes(x=long, y=lat, group=group), alpha=0.4, color="white") +
+    geom_path(data=lakes, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    geom_path(data=countries, aes(x=long, y=lat, group=group),alpha=1,color="black") +
+    #geom_polygon(data=states, aes(x=long, y=lat, group=group), alpha=.4,fill="grey90", color="darkgrey") +
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+    theme(axis.ticks.x = element_blank(),axis.text.x = element_blank(),
+          axis.ticks.y = element_blank(),axis.text.y = element_blank(),
+          axis.title.x=element_blank(),axis.title.y=element_blank(),
+          plot.margin = unit(c(0, 0, 0, 0), "null"),
+          panel.spacing = unit(c(0, 0, 0, 0), "null"),
+          legend.key.size = unit(1.25, 'cm'),
+          legend.title=element_text(size=22), 
+          legend.text=element_text(size=22),
+          legend.position = c(.15,.4)) +
+    theme(panel.background = element_rect(fill = alpha("white",.5))) +
+    scale_fill_gradient2(low="wheat3", mid="grey",high="darkgreen",
+                         name = "",midpoint=0,lim=c(-3,3))
+  print(p1)
+}
+```

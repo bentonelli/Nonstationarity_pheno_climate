@@ -1,0 +1,20 @@
+Information and diagnostics 
+=========================== 
+Run time (min):                   1381.88 
+Total iter:                       9000 
+Warmup:                           1000 
+Thin:                             8 
+Num chains:                       4 
+Adapt delta (specified):          0.95 
+Max tree depth (specified):       10 
+Initial step size (specified):    0.06 
+Mean accept stat:                 0.95 
+Mean tree depth:                  7 
+Mean step size:                   0.0273 
+Num divergent transitions:        0 
+Num max tree depth exceeds:       0 
+Num chains with BFMI warnings:    0 
+Max Rhat:                         1.01 
+Min n.eff:                        516 
+
+
