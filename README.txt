@@ -1,5 +1,7 @@
 Code and data for Nonstationarity in Climate x Arrival Phenology 
 
+Note that model fit object is available under a seperate DOI: doi.org/10.5281/zenodo.13256390
+
 **Associated publications:**
 
 **Repository structure:**
