@@ -8,7 +8,7 @@ Note that model fit object is available under a seperate DOI: doi.org/10.5281/ze
 
 * `code/` - Code to process data, run models, analyze output
   * `1_Prepare_data` - Code to preprocess data
-  	* `1a_awk_filter_ebird.R` - Filter eBird data
+  	* `1a_awk_filter_ebird.rtf` - Filter eBird data using awk (i.e. full eBird dataset available for download via https://science.ebird.org/en/use-ebird-data/download-ebird-data-products)
   	* `1b_process_GAMs.R` - Estimate arrival phenology
   	* `1c_get_ebird_rngs.R` - Get species’ ranges
 	* `1d_get_spec_co_corr.R` - Get correlation between local climate and oscillation indices
