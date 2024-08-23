@@ -3,7 +3,7 @@ library(rstan)
 data_in1 <- readRDS("data/mdl_data/ms_data1.rds")
 
 fit1 <- stan(
-  file = "pc_mdl.stan",  # Stan program
+  file = "code/2_Main_analysis/pc_mdl.stan",  # Stan program
   data = data_in1,    # named list of data
   chains = 4,             # number of Markov chains
   warmup = 1000,          # number of warmup iterations per chain
