@@ -7,6 +7,7 @@ Note that fit model object is available under a seperate DOI: doi.org/10.5281/ze
 **Repository structure:**
 
 * `code/` - Code to process data, run models, analyze output
+ * `0_master_script.R` - Code to run all main script files sequentially via source command.
   * `1_Prepare_data` - Code to preprocess data from eBird and Daymet. Please note this data needs to be dowloaded before this section is run.
   	* `1a_awk_filter_ebird.rtf` - Filter eBird data using awk (i.e. full eBird dataset available for download via https://science.ebird.org/en/use-ebird-data/download-ebird-data-products)
   	* `1b_process_GAMs.R` - Estimate arrival phenology via GAM models for each species, cell, and year.
