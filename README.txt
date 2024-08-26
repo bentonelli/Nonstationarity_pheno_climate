@@ -22,5 +22,5 @@ Note that fit model object is available under a seperate DOI: doi.org/10.5281/ze
 	* `pc_mdl.stan` - Bayesian model in Stan
   * `3_Output_analysis` - Code to analyze model output, create figures, etc.
 	* `Figures` - All code to recreate figures in manuscript, by figure number.
-	* `mdl_analysis.R` - Extract parameter estimates from model
+	* `3a_mdl_analysis.R` - Extract parameter estimates from model
 	* `Variance_explained` - Code to calculate percent variance explained by species, and by cell
