@@ -1,12 +1,15 @@
 Code and data for Nonstationarity in Climate x Arrival Phenology 
 
+Update Nov. 2024: 
 
-Please direct all comments/questions to Ben Tonelli (btonelli [at] ucla.edu)
+I've received a number of requests for detailed species-specific results. I am more than happy to summarise data from this paper for target species of interest. If this is something you are interested in, please reach out to me via email! 
+
+Please direct all comments/questions to Ben Tonelli (btonelli [at] ucla.edu).
 
 Note that fit model object is available under a separate DOI: doi.org/10.5281/zenodo.13256390 due to its large size (~4GB).
 
 **Associated publications:**
-
+Spatial Nonstationarity in Phenological Responses of Nearctic Birds to Climate Variability. Tonelli et al. 2024. Available at https://onlinelibrary.wiley.com/doi/10.1111/ele.14526
 **Repository structure:**
 
 General overview, code:
